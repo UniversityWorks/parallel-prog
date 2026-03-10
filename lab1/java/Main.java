@@ -67,8 +67,9 @@ class Worker implements Runnable {
         System.out.printf("Потік %d. Сума: %.2f, Використано елементів: %d%n", id + 1, sum, count);
     }
 }
-class TimerController {
 
+
+class TimerController {
     private final AtomicBoolean[] stopSignals;
     private final int[] durations;
 
@@ -78,19 +79,28 @@ class TimerController {
     }
 
     public void launch() {
-        for (int i = 0; i < stopSignals.length; i++) {
-            int index = i;
-            int delay = durations[i];
+        new Thread(() -> {
+            long startTime = System.currentTimeMillis();
+            boolean[] isStopped = new boolean[stopSignals.length];
+            int stoppedCount = 0;
 
-            new Thread(() -> {
+            while (stoppedCount < stopSignals.length) {
+                long elapsed = System.currentTimeMillis() - startTime;
+
+                for (int i = 0; i < stopSignals.length; i++) {
+                    if (!isStopped[i] && elapsed >= durations[i]) {
+                        stopSignals[i].set(true);
+                        isStopped[i] = true;
+                        stoppedCount++;
+                    }
+                }
                 try {
-                    Thread.sleep(delay);
+                    Thread.sleep(100);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                     return;
                 }
-                stopSignals[index].set(true);
-            }).start();
-        }
+            }
+        }).start();
     }
 }

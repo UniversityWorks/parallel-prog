@@ -12,3 +12,4 @@
 /home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.pdb
 /home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.genruntimeconfig.cache
 /home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/ref/MainApp.dll
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.sourcelink.json

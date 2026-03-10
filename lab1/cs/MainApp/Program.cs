@@ -67,30 +67,40 @@ using System.Threading;
             Console.WriteLine($"Потік {_id + 1}. Сума: {sum}, Використано елементів: {count}");
         }
     }
+class TimerController
+{
+    private readonly ManualResetEvent[] _stopSignals;
+    private readonly int[] _durations;
 
-    class TimerController
+    public TimerController(ManualResetEvent[] stopSignals, int[] durations)
     {
-        private readonly ManualResetEvent[] _stopSignals;
-        private readonly int[] _durations;
+        _stopSignals = stopSignals;
+        _durations = durations;
+    }
 
-        public TimerController(ManualResetEvent[] stopSignals, int[] durations)
+    public void Launch()
+    {
+        new Thread(() =>
         {
-            _stopSignals = stopSignals;
-            _durations = durations;
-        }
+            DateTime startTime = DateTime.Now;
+            int stoppedCount = 0;
+            bool[] isStopped = new bool[_stopSignals.Length];
 
-        public void Launch()
-        {
-            for (int i = 0; i < _stopSignals.Length; i++)
+            while (stoppedCount < _stopSignals.Length)
             {
-                int index = i;
-                int delay = _durations[i];
+                double elapsed = (DateTime.Now - startTime).TotalMilliseconds;
 
-                new Thread(() =>
+                for (int i = 0; i < _stopSignals.Length; i++)
                 {
-                    Thread.Sleep(delay);
-                    _stopSignals[index].Set();
-                }).Start();
+                    if (!isStopped[i] && elapsed >= _durations[i])
+                    {
+                        _stopSignals[i].Set();
+                        isStopped[i] = true;
+                        stoppedCount++;
+                    }
+                }
+                Thread.Sleep(100);
             }
-        }
-    }   
+        }).Start();
+    }
+}
