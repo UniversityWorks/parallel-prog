@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dYuOL2ytkU0=",
+  "success": true,
+  "projectFilePath": "/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/MainApp.csproj",
+  "expectedPackageFiles": [
+    "/home/wissp/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

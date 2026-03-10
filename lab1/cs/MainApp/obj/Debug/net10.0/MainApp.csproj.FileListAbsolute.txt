@@ -1,0 +1,14 @@
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/bin/Debug/net10.0/MainApp
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/bin/Debug/net10.0/MainApp.deps.json
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/bin/Debug/net10.0/MainApp.runtimeconfig.json
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/bin/Debug/net10.0/MainApp.dll
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/bin/Debug/net10.0/MainApp.pdb
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.AssemblyInfoInputs.cache
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.AssemblyInfo.cs
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.csproj.CoreCompileInputs.cache
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.dll
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/refint/MainApp.dll
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.pdb
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/MainApp.genruntimeconfig.cache
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab1/cs/MainApp/obj/Debug/net10.0/ref/MainApp.dll
