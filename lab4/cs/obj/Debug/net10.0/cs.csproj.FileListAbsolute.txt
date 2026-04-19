@@ -1,0 +1,15 @@
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/bin/Debug/net10.0/cs
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/bin/Debug/net10.0/cs.deps.json
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/bin/Debug/net10.0/cs.runtimeconfig.json
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/bin/Debug/net10.0/cs.dll
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/bin/Debug/net10.0/cs.pdb
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/cs.GeneratedMSBuildEditorConfig.editorconfig
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/cs.AssemblyInfoInputs.cache
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/cs.AssemblyInfo.cs
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/cs.csproj.CoreCompileInputs.cache
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/cs.sourcelink.json
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/cs.dll
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/refint/cs.dll
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/cs.pdb
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/cs.genruntimeconfig.cache
+/home/wissp/Data/files/university-labworks/third-grade/6-sem/parallel-prog/lab4/cs/obj/Debug/net10.0/ref/cs.dll
